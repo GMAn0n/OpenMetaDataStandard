@@ -1,0 +1,44 @@
+{
+  // Essential Data
+  "name": "The Cosmic Voyager",
+  "description": "A mesmerizing journey through the vast expanse of the cosmos.",
+  "image": "https://ipfs.io/ipfs/bafybeihg45z54654r5465y54354gh5465456754654.png",
+  "creators": [
+    { "address": "0x1234567890abcdef1234567890abcdef12345678", "share": 50 },
+    { "address": "0x9876543210fedcba9876543210fedcba98765432", "share": 50 }
+  ],
+  "collection": "Cosmic Odyssey",
+
+  // Optional Data (placeholders for missing values)
+  "animation_url": "PLACEHOLDER_ANIMATION_URL",
+  "external_url": "PLACEHOLDER_EXTERNAL_URL",
+  "attributes": PLACEHOLDER_ATTRIBUTES,
+  "properties": PLACEHOLDER_PROPERTIES,
+  "approvals": PLACEHOLDER_APPROVED_BIDDERS,
+  "unlockable_content": "PLACEHOLDER_UNLOCKABLE_CONTENT",
+  "creatorDID": "PLACEHOLDER_CREATOR_DID",
+  "background_color": "PLACEHOLDER_BACKGROUND_COLOR",
+  "category": "PLACEHOLDER_CATEGORY",
+  "explicit_content": PLACEHOLDER_EXPLICIT_CONTENT_FLAG,
+  "license": "PLACEHOLDER_LICENSE",
+  "media": "PLACEHOLDER_MEDIA_URL",
+  "subtitle": "PLACEHOLDER_SUBTITLE",
+  "chain": "PLACEHOLDER_CHAIN",
+  "token_id": "PLACEHOLDER_TOKEN_ID",
+  "token_standard": "PLACEHOLDER_TOKEN_STANDARD",
+  "symbol": "PLACEHOLDER_SYMBOL",
+  "seller_fee_basis_points": PLACEHOLDER_SELLER_FEE,
+  "is_presale": PLACEHOLDER_PRESALE_INDICATOR,
+  "start_time": "PLACEHOLDER_START_TIME",
+  "end_time": "PLACEHOLDER_END_TIME",
+  "tags": PLACEHOLDER_PLATFORM_SPECIFIC_TAGS,
+  "stats": PLACEHOLDER_STATS,
+  "levels": PLACEHOLDER_LEVELS,
+  "abilities": PLACEHOLDER_ABILITIES,
+
+  // General Data
+  "general_tags": ["PLACEHOLDER_GENERAL_TAGS"],
+
+  // Platform-Specific Data (example for OpenSea)
+  "opensea_tags": ["PLACEHOLDER_OPENSEA_TAGS"]
+}

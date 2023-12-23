@@ -1,0 +1,49 @@
+{
+  "name": "The Cosmic Voyager",
+  "description": "A mesmerizing journey through the vast expanse of the cosmos.",
+  "image": "https://ipfs.io/ipfs/bafybeihg45z54654r5465y54354gh5465456754654.png",
+  "animation_url": "https://ipfs.io/ipfs/bafybeih56546546546545654654654654654654543754.mp4",
+  "external_url": "https://cosmicvoyagernft.com",
+  "attributes": [
+    { "trait_type": "Rarity", "value": "Legendary" },
+    { "trait_type": "Background", "value": "Nebula" }
+  ],
+  "properties": {
+    "edition": 145,
+    "generation": 2
+  },
+  "creators": [
+    { "address": "0x1234567890abcdef1234567890abcdef12345678", "share": 50 },
+    { "address": "0x9876543210fedcba9876543210fedcba98765432", "share": 50 }
+  ],
+  "collection": "Cosmic Odyssey",
+  "approvals": ["0x456789abcdef0123456789abcdef0123456789"],
+  "unlockable_content": "Secret message for the owner",
+  "creatorDID": "did:ethr:0x1234567890abcdef1234567890abcdef12345678",
+  "background_color": "#000000",  // Black background
+  "category": "Art",
+  "explicit_content": false,
+  "license": "CC BY-NC-SA 4.0",
+  "media": "https://ipfs.io/ipfs/bafybeihg45z54654r5465y54354gh5465456754654.mp4",  // Same as image URL for this example
+  "subtitle": "Embark on an interstellar voyage",
+  "chain": "Polygon",
+  "token_id": "7890",
+  "token_standard": "ERC721",
+  "symbol": "COSMIC",
+  "seller_fee_basis_points": 500,  // Example seller fee
+  "is_presale": true,
+  "start_time": "2023-12-25T00:00:00Z",
+  "end_time": "2024-01-01T00:00:00Z",
+  "tags": ["Space", "Cosmic Art", "Generative"],
+  "stats": [
+    { "type": "Strength", "value": 85 },
+    { "type": "Agility", "value": 70 }
+  ],
+  "levels": [
+    { "level": 1, "experience": 0 },
+    { "level": 2, "experience": 1000 }
+  ],
+  "abilities": [
+    "Fireball", "Healing Touch"
+  ]
+}
