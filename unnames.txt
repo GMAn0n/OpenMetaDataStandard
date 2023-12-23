@@ -1,0 +1,46 @@
+{
+  "name": "NFT Name",
+  "description": "NFT Description",
+  "image": "Image URL",
+  "animation_url": "Animation URL",
+  "external_url": "External Link",
+  "attributes": [
+    // Attribute objects
+  ],
+  "properties": {
+    // Property fields
+  },
+  "creators": [
+    // Creator objects
+  ],
+  "collection": "Collection Name",
+  "approvals": ["List of Approved Bidders"],
+  "unlockable_content": "Unlockable Content",
+  "creatorDID": "Creator DID",
+
+  // Additional Optional Fields
+  "background_color": "Hex Color Code",
+  "category": "NFT Category",
+  "explicit_content": true,  // Boolean flag
+  "license": "License Terms",
+  "media": "Media URL",
+  "subtitle": "NFT Subtitle",
+  "chain": "Blockchain Network",
+  "token_id": "Unique Token ID",
+  "token_standard": "NFT Standard",
+  "symbol": "Collection Symbol",
+  "seller_fee_basis_points": "Seller Fee Percentage",
+  "is_presale": true,  // Boolean flag
+  "start_time": "Sale Start Time",
+  "end_time": "Sale End Time",
+  "tags": ["Keyword 1", "Keyword 2"],
+  "stats": [
+    // Stat objects
+  ],
+  "levels": [
+    // Level objects
+  ],
+  "abilities": [
+    // Ability objects
+  ]
+}

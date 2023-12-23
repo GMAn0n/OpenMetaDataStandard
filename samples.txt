@@ -1,0 +1,53 @@
+General Fields:
+
+background_color: Specifies a background color for the NFT's display.
+category: Categorizes the NFT (e.g., Art, Music, Collectibles).
+explicit_content: Flags the NFT as containing explicit or sensitive content.
+license: Indicates the licensing terms for the NFT content.
+media: (Alternative to "image" or "animation_url") A general field for various media types.
+subtitle: Provides a secondary descriptive text for the NFT.
+Platform-Specific Fields:
+
+chain: Specifies the blockchain network on which the NFT is minted (e.g., Ethereum, Polygon).
+token_id: Identifies the unique token ID of the NFT within its collection.
+token_standard: Indicates the NFT standard used (e.g., ERC-721, ERC-1155).
+symbol: Specifies a symbol for the NFT collection.
+seller_fee_basis_points: (OpenSea) Sets a custom fee percentage for the seller.
+is_presale: (OpenSea) Indicates if the NFT is part of a presale.
+start_time: (OpenSea) Sets a start time for the NFT's sale.
+end_time: (OpenSea) Sets an end time for the NFT's sale.
+tags: (Rarible) Adds keywords for search and discovery.
+Game-Related Fields:
+
+stats: Stores numerical stats or attributes for game items or characters.
+levels: Indicates progression levels or tiers within a game.
+abilities: Lists special abilities or skills associated with a game character or item.
+
+{
+  "background_color": "#FFFFFF",  // Example hex color code
+  "category": "Art",  // Example category
+  "explicit_content": false,  // Boolean flag
+  "license": "CC BY-NC-ND 4.0",  // Example license
+  "media": "https://ipfs.io/ipfs/bafybeihg45z54654r5465y54354gh5465456754654.mp4",  // Example media URL
+  "subtitle": "A captivating visual exploration",  // Example subtitle
+  "chain": "Ethereum",  // Example blockchain network
+  "token_id": "12345",  // Example token ID
+  "token_standard": "ERC721",  // Example NFT standard
+  "symbol": "CODY",  // Example collection symbol
+  "seller_fee_basis_points": 500,  // Example seller fee percentage
+  "is_presale": true,  // Boolean flag
+  "start_time": "2023-12-25T00:00:00Z",  // Example sale start time
+  "end_time": "2024-01-01T00:00:00Z",  // Example sale end time
+  "tags": ["Surreal", "Digital Art", "Generative"],  // Example tags
+  "stats": [
+    { "type": "Strength", "value": 85 },  // Example stat
+    { "type": "Agility", "value": 70 }
+  ],
+  "levels": [
+    { "level": 1, "experience": 0 },  // Example level
+    { "level": 2, "experience": 1000 }
+  ],
+  "abilities": [
+    "Fireball", "Healing Touch"  // Example abilities
+  ]
+}
