@@ -1,0 +1,46 @@
+{
+  // Essential Data
+  "name": "Shimmering Nebula",  // Example name
+  "description": "A captivating swirl of cosmic dust and gases, birthing new stars.", // Example description
+  "image": "https://ipfs.io/ipfs/bafybeihg45z54654r5465y54354gh5465456754654.png",  // Example image URL
+  "creators": [
+    { "address": "0x0000000000000000000000000000000000000001", "share": 50 },  // Example creator addresses
+    { "address": "0x0000000000000000000000000000000000000002", "share": 50 }
+  ],
+  "collection": "Cosmic Wonders",  // Example collection name
+
+  // Optional Data (with sample values)
+  "animation_url": "https://ipfs.io/ipfs/bafybeih56546546546545654654654654654654543754.mp4",  // Example animation URL
+  "external_url": "https://cosmicwondersnft.com",  // Example external URL
+  "attributes": [
+    { "trait_type": "Rarity", "value": "Legendary" },  // Example attributes
+    { "trait_type": "Color Palette", "value": "Vibrant" },
+    { "trait_type": "Number of Stars", "value": 5000 }
+  ],
+  "properties": {},  // Example properties (empty for this example)
+  "approvals": [],  // Example approved bidders (empty for this example)
+  "unlockable_content": "A secret message revealing the true nature of the nebula.",  // Example unlockable content
+  "creatorDID": "did:ethr:0x0000000000000000000000000000000000000001",  // Example creator DID
+  "background_color": "#000000",  // Example background color
+  "category": "Art",  // Example category
+  "explicit_content": false,  // Example explicit content flag
+  "license": "CC BY-NC-SA 4.0",  // Example license
+  "media": "https://ipfs.io/ipfs/bafybeihg45z54654r5465y54354gh5465456754654.mp4",  // Example media URL (same as image URL for this example)
+  "subtitle": "Gaze into the infinite depths.",  // Example subtitle
+  "chain": "Ethereum",  // Example chain
+  "token_id": "1234",  // Example token ID
+  "token_standard": "ERC721",  // Example token standard
+  "symbol": "COSMICW",  // Example symbol
+  "seller_fee_basis_points": 100,  // Example seller fee
+  "is_presale": false,  // Example presale indicator
+  "start_time": "2024-01-15T09:00:00Z",  // Example start time
+  "end_time": "2024-01-22T09:00:00Z",  // Example end time
+  "tags": ["Cosmic", "Nebula", "Art", "Space"],  // Example platform-specific tags
+  "stats": [],  // Example stats (empty for this example)
+  "levels": [],  // Example levels (empty for this example)
+  "abilities": []  // Example abilities (empty for this example)
+
+  // General Data
+  "general_tags": ["NFT", "Generative Art", "Digital Art"],  // Example general tags
+
+  // Platform-Specific Data (example for OpenSea)
