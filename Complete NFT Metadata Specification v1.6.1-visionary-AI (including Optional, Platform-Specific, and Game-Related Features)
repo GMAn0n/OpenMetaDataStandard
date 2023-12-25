@@ -1,0 +1,70 @@
+Complete NFT Metadata Specification v1.6.1-visionary-AI (including Optional, Platform-Specific, and Game-Related Features)
+1. Schema Declaration:
+
+$schema: "https://metadata.opensea.io/schema/v1.5.0-visionary"
+version: "1.6.1-visionary-AI"
+2. Base Standard Metadata (v1.1):
+
+name: String (NFT name)
+description: String (NFT description)
+image: String (URL of main image)
+external_url: String (Optional URL for external website)
+attributes: Array of objects (list of traits)
+trait_type: String (trait name)
+value: String or Int (trait value)
+display_type: String (Optional, display format like "number", "date", "percentage")
+3. Experimental Enhancements (v1.2, v1.3, v1.4):
+
+dynamic_content: Object (Optional)
+external_data_sources: Array of Strings (URLs for real-time data feeds)
+update_frequency: String (e.g., "hourly", "daily", "event-driven")
+ai_variations_enabled: Boolean (whether AI generates visual variations)
+ai_model_url: String (Optional, URL of AI model for variations)
+interactive_elements: Array of objects (list of interactive elements)
+type: String ("voice", "touch", "scan", "proximity", "gameplay")
+trigger: String (specific trigger event for interaction)
+responses: Array of Strings (Optional, for voice or text interactions)
+gameplay_effect: String (Optional, effect on game mechanics)
+4. Visionary Features (v1.5.0-visionary, v1.6.1 enhancements):
+
+metaverse_integration: Object (Optional)
+model_url: String (URL of 3D model for metaverse platforms)
+supported_platforms: Array of Strings ("Decentraland", "Sandbox", etc.)
+interactive_elements: Array of objects (like above, specific to metaverse)
+real_world_linkages: Object (Optional)
+physical_asset_id: String (ID of linked physical asset)
+redemption_instructions: String (instructions for claiming physical asset)
+on_chain_storage: Object (Optional)
+storage_provider: String ("Arweave", "IPFS")
+content_hash: String (hash of on-chain storage location)
+platform_specific: Object (Optional)
+[platform_name]: Object (specific data for each platform)
+[platform-specific fields and values]
+5. Game-Related Features (v1.6.1 additions):
+
+stats: Array of objects (gameplay statistics)
+stat_name: String (name of stat)
+value: Int or Float (initial value of stat)
+max_value: Int or Float (Optional, maximum achievable value)
+abilities: Array of objects (special abilities)
+ability_name: String (name of ability)
+description: String (description of ability)
+trigger: String (event or condition that activates the ability)
+effect: String (description of ability's effect)
+inventory: Array of objects (list of in-game items)
+item_name: String (name of item)
+description: String (item description)
+image_url: String (Optional, URL of item image)
+stats_modifier: Object (Optional, how item affects stats)
+[stat_name]: Int or Float (amount added/subtracted)
+6. Accessibility and Ethical Considerations (v1.6.0 additions):
+
+accessibility_features: Object (Optional)
+alt_text: String (description of visuals for screen readers)
+transcript: String (Transcript of audio/visual content)
+ethical_considerations: Object (Optional)
+carbon_footprint: String (estimated carbon footprint)
+artist_compensation: String (details of artist royalties/rights)
+7. Additional Notes:
+
+This specification is a suggested standard and can be adapted to specific project requirements
