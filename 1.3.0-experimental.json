@@ -1,0 +1,70 @@
+{
+  "$schema": "https://metadata.opensea.io/schema/v1.0.0",
+  "version": "1.3.0-experimental",
+
+  // **Essential Data:**
+  "name": "Living Artwork - Ocean Symphony",
+  "description": "An interactive NFT painting that reacts to sound and evolves over time.",
+  "image": "https://ipfs.io/ipfs/QmXYZ...", // IPFS for immutability
+  "collection": "Interactive Art",
+
+  // **Enhanced Blockchain Integration:**
+  "ownership_history": [
+    {
+      "owner_address": "0x...",
+      "date_acquired": "2023-12-24T22:35:00Z",
+      "acquisition_price": 0.5 // On-chain price at purchase
+    }
+  ],
+  "token_price": {
+    "value": 1.0, // Current price
+    "minimum": 0.75, // Dynamic validation rule
+    "last_updated_blockchain": "2023-12-25T10:00:00Z" // Timestamp
+  },
+
+  // **Creative Exploration:**
+  "interactive_elements": {
+    "sound_activation": {
+      "type": "microphone", // User input method
+      "effects": {
+        "brushstrokes": { // Dynamic art adjustments
+          "speed": "proportional", // Based on sound intensity
+          "color": "random" // AI-generated color palette
+        },
+        "music_generation": { // Audio feedback loop
+          "genre": "ambient", // User-selectable option
+          "instruments": ["piano", "harp"] // Dynamically generated based on artwork
+        }
+      }
+    }
+  },
+
+  // **Advanced Functionality:**
+  "ai_variations": [
+    {
+      "description": "Serene Lagoon",
+      "image": "https://ipfs.io/ipfs/QmABC..." // AI-generated alternate image
+    },
+    {
+      "description": "Stormy Seascape",
+      "image": "https://ipfs.io/ipfs/QmDEF..." // AI-generated alternate image
+    }
+  ],
+  "unlockable_content": {
+    "description": "Secret underwater world",
+    "unlock_condition": "Reach 1000 listens", // On-chain event trigger
+    "unlock_code": "revealed_on_blockchain" // Dynamically revealed on unlock
+  },
+
+  // **General Data:**
+  "token_standard": "ERC-721",
+  "creator": "0x...",
+
+  // **Platform-Specific Data (OpenSea):**
+  "category": "Art, Interactive"
+
+  // **Additional Notes (Not part of schema):**
+  // - This example uses placeholder values for some fields.
+  // - Specific implementation details would depend on chosen blockchain and technology stack.
+
+}

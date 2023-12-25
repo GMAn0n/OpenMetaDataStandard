@@ -1,0 +1,116 @@
+{
+  // **Schema Reference:**
+  // - Links to the OpenSea metadata schema definition for consistency
+  "$schema": "https://metadata.opensea.io/schema/v1.0.0",
+
+  // **Template Versioning:**
+  // - Tracks changes and facilitates updates
+  "version": "1.2.0-experimental",
+
+  // **Essential Data:**
+
+  // - Name of the NFT (String)
+  "name": "String",
+
+  // - Detailed description of the NFT (String)
+  "description": {
+    "base_text": "String",  // Base description for AI variations
+    "ai_generated_variations": ["String", "String", ...]  // Optional AI-generated variations
+  },
+
+  // - URL of the main image (URL)
+  "image": "URL",
+
+  // - Name of the collection the NFT belongs to (String)
+  "collection": "String",
+
+  // **Optional Data:**
+
+  // - URL of any animation or video (URL)
+  "animation_url": "URL",
+
+  // - Link to an external website or resource (URL)
+  "external_url": "URL",
+
+  // - Array of attributes and their values, defining unique traits (Array of Objects)
+  "attributes": [
+    {
+      "trait_type": "String",
+      "value": "String"
+    },
+    // ... additional attributes
+  ],
+
+  // - Object containing technical details (Object)
+  "properties": {
+    // - Resolution of the main image or video (e.g., "4K") (String)
+    "resolution": "String",
+
+    // - Frame rate of animation or video (if applicable) (Number)
+    "frame_rate": Number,
+
+    // - Audio format of any included audio (if applicable) (String)
+    "audio_format": "String"
+  },
+
+  // - Description of unlockable content (String)
+  "unlockable_content": {
+    "description": "String",
+    "unlock_condition": "String",  // Criteria for unlocking content
+    "unlock_code": "String"  // User-entered code to unlock content
+  },
+
+  // - Background color in HEX or RGB format (String)
+  "background_color": "String",
+
+  // - Category of the NFT (e.g., "Art", "Music") (String)
+  "category": "String",
+
+  // - Boolean flag indicating explicit content (Boolean)
+  "explicit_content": Boolean,
+
+  // - License under which the NFT is released (String)
+  "license": "String",
+
+  // - URL of any additional media (e.g., audio file) (URL)
+  "media": "URL",
+
+  // - Subtitle for the NFT (String)
+  "subtitle": "String",
+
+  // - Name of the blockchain the NFT resides on (e.g., "Ethereum") (String)
+  "chain": "String",
+
+  // **General Data:**
+
+  // - Token standard used (e.g., "ERC-721") (String)
+  "token_standard": "String",
+
+  // - Symbol representing the NFT (optional) (String)
+  "symbol": "String",
+
+  // **Platform-Specific Data (OpenSea Specific):**
+
+  // - Category of the NFT on OpenSea (may differ from general category) (String)
+  "category": "String",
+
+  // **Dynamic Data (Placeholders for integration):**
+
+  // - Creator's wallet address (String)
+  "creators": [
+    {
+      "address": "String",
+      // ... other creator details
+    },
+    // ... additional creators
+  ],
+
+  // - Token ID of the NFT (Number)
+  "token_id": "0x...",  // Automatically populated from blockchain
+
+  // - Timestamp of minting or other events (Date)
+  "timestamp": "2023-12-24T22:35:00Z",  // Automatically updated on blockchain events
+
+  // - Current price or historical sale prices (Number)
+  "price": {
+    "value": Number,  // Current price
