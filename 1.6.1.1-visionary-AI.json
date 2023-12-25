@@ -1,0 +1,91 @@
+{
+  // **Schema Declaration:**
+  "$schema": "https://metadata.opensea.io/schema/v1.5.0-visionary",
+  "version": "1.6.1-visionary-AI",
+
+  // **Base Standard Metadata (v1.1):**
+  "name": "NFT Name",  // Replace with actual name
+  "description": "NFT Description",  // Replace with actual description
+  "image": "https://ipfs.io/ipfs/Qm...",  // Replace with actual IPFS hash
+  "external_url": "https://example.com",  // Optional
+  "attributes": [
+    // Add traits as needed, e.g.:
+    { "trait_type": "Color", "value": "Green" },
+    { "trait_type": "Generation", "value": "1" }
+  ],
+
+  // **Experimental Enhancements (v1.2, v1.3, v1.4):**
+  "dynamic_content": {
+    // Optional, add details as needed:
+    "external_data_sources": ["https://api.openweathermap.org/data/2.5/weather?q=London"],
+    "update_frequency": "hourly",
+    "ai_variations_enabled": true,
+    "ai_model_url": "IPFS://bafybeig4..."  // Replace with actual IPFS hash
+  },
+  "interactive_elements": [
+    // Add interactive elements as needed, e.g.:
+    {
+      "type": "voice",
+      "trigger": "proximity",
+      "responses": ["Hello! What's your favorite color?", "Let's explore the weather!"]
+    },
+    {
+      "type": "touch",
+      "gameplay_effect": "increase_speed",
+      "platform_specific": {
+        "Decentraland": { "animation": "run" }  // Optional platform-specific details
+      }
+    }
+  ],
+
+  // **Visionary Features (v1.5.0-visionary, v1.6.1 enhancements):**
+  "metaverse_integration": {
+    // Optional, add details as needed:
+    "model_url": "IPFS://bafybeib7...",  // Replace with actual IPFS hash
+    "supported_platforms": ["Decentraland", "Sandbox"],
+    "interactive_elements": [
+      {
+        "type": "VR experience",
+        "trigger": "touch",
+        "environment_url": "https://metaverse.example/spaces/chameleon-forest"
+      }
+    ]
+  },
+  "real_world_linkages": {
+    // Optional, add details as needed:
+    "physical_asset_id": "CHAM-NFT-00125",
+    "redemption_instructions": "Visit https://example.com/redeem/CHAM-NFT-00125 for a print."
+  },
+  "on_chain_storage": {
+    // Optional, add details as needed:
+    "storage_provider": "Arweave",
+    "content_hash": "Qm..."  // Replace with actual Arweave hash
+  },
+  "platform_specific": {
+    // Optional, add data specific to platforms you support:
+    "Decentraland": {
+      "wearable": {
+        "slot": "body",
+        "description": "Changes color based on weather in London."
+      }
+    }
+  },
+
+  // **Game-Related Features (v1.6.1 additions):**
+  "stats": [
+    // Add gameplay statistics as needed, e.g.:
+    { "stat_name": "Speed", "value": 10, "max_value": 20 }
+  ],
+  "abilities": [
+    // Add special abilities as needed, e.g.:
+    {
+      "ability_name": "Camouflage",
+      "description": "Blend into the environment for 10 seconds.",
+      "trigger": "proximity to enemy",
+      "effect": "Reduces chance of detection by 50%"
+    }
+  ],
+  "inventory": [
+    // Add in-game items as needed, e.g.:
+    {
+      "item_name": "Energy

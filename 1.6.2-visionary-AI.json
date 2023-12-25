@@ -1,0 +1,83 @@
+{
+  // **Schema Declaration:**
+  "$schema": "https://metadata.opensea.io/schema/v1.5.0-visionary",
+  "version": "1.6.2-visionary-AI",
+
+  // **Base Standard Metadata (v1.1):**
+  "name": "AI-Powered Chameleon NFT",  // Example string (replace with actual name)
+  "description": "This NFT adapts its colors based on real-world weather.",  // Example string
+  "image": "https://ipfs.io/ipfs/Qm...",  // Example URL (replace with actual IPFS hash)
+  "external_url": "https://chameleonnft.com",  // Optional String (URL for external website)
+  "attributes": [
+    // Array of objects (list of traits):
+    { "trait_type": "Color", "value": "Green" },
+    { "trait_type": "Generation", "value": 1 },
+    { "trait_type": "Rarity", "value": "Rare", "display_type": "percentage" }
+  ],
+
+  // **Experimental Enhancements (v1.2, v1.3, v1.4):**
+  "dynamic_content": {
+    // Optional:
+    "external_data_sources": [
+      "https://api.openweathermap.org/data/2.5/weather?q=London",
+      "https://newsapi.org/v2/top-headlines?country=us&category=technology"
+    ],  // Array of Strings (URLs of external data sources)
+    "update_frequency": "hourly",  // String ("hourly", "daily", "event-driven")
+    "ai_variations_enabled": true,  // Boolean (true or false)
+    "ai_model_url": "IPFS://bafybeig4..."  // String (URL of AI model for variations)
+  },
+  "interactive_elements": [
+    // Array of objects (list of interactive elements):
+    {
+      "type": "voice",
+      "trigger": "proximity",
+      "responses": [
+        "Hello! What's your favorite color right now?",
+        "I sense a change in the weather. Let's explore what's happening."
+      ]
+    },
+    {
+      "type": "touch",
+      "gameplay_effect": "increase_speed",
+      "platform_specific": {
+        "Decentraland": { "animation": "run" }
+      }
+    }
+  ],
+
+  // **Visionary Features (v1.5.0-visionary, v1.6.1 enhancements):**
+  "metaverse_integration": {
+    // Optional:
+    "model_url": "IPFS://bafybeib7...",  // String (URL of 3D model for metaverse platforms)
+    "supported_platforms": ["Decentraland", "Sandbox"],  // Array of Strings
+    "interactive_elements": [
+      // Array of objects (for metaverse-specific interactions)
+      {
+        "type": "VR experience",
+        "trigger": "touch",
+        "environment_url": "https://metaverse.example/spaces/chameleon-forest"
+      }
+    ]
+  },
+  "real_world_linkages": {
+    // Optional:
+    "physical_asset_id": "CHAM-NFT-00125",
+    "redemption_instructions": "Visit https://example.com/redeem/CHAM-NFT-00125 for a print."
+  },
+  "on_chain_storage": {
+    // Optional:
+    "storage_provider": "Arweave",
+    "content_hash": "Qm..."  // Replace with actual Arweave hash
+  },
+  "platform_specific": {
+    // Optional:
+    "Decentraland": {
+      "wearable": {
+        "slot": "body",
+        "description": "Changes color based on weather in London."
+      }
+    }
+  },
+
+  // **Game-Related Features (v1.6.1 additions):**
+  "stats": [
