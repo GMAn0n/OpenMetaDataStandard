@@ -1,0 +1,79 @@
+Essential Data:
+
+name: (PLACEHOLDER) Name of the NFT
+description: (PLACEHOLDER) Detailed description of the NFT
+image: (PLACEHOLDER) URL of the main image
+creators: Array of objects containing:
+address: Creator's wallet address
+share: Percentage share of ownership for this creator (optional)
+name: Name or pseudonym of the creator
+collection: (PLACEHOLDER) Name of the collection the NFT belongs to
+Optional Data:
+
+animation_url: (PLACEHOLDER) URL of any animation or video associated with the NFT
+external_url: (PLACEHOLDER) Link to an external website or resource related to the NFT
+attributes: Array of objects containing:
+trait_type: Name of the attribute (e.g., "Rarity", "Color")
+value: Specific value of the attribute (e.g., "Legendary", "Blue")
+properties: Object containing:
+resolution: Resolution of the main image or video (e.g., "4K")
+frame_rate: Frame rate of animation or video (e.g., "60")
+audio_format: Audio format of any included audio (e.g., "Dolby Atmos")
+approvals: Array of addresses representing approved bidders (initially empty)
+unlockable_content: (PLACEHOLDER) Description of any unlockable content associated with the NFT
+creatorDID: Creator's Decentralized Identifier (optional)
+background_color: Background color in HEX or RGB format (optional)
+category: (PLACEHOLDER) Category of the NFT (e.g., "Art", "Music")
+explicit_content: Boolean flag indicating explicit content (optional)
+license: License under which the NFT is released (e.g., "CC BY-NC-SA 4.0")
+media: (PLACEHOLDER) URL of any additional media associated with the NFT (e.g., audio file)
+subtitle: (PLACEHOLDER) Subtitle for the NFT
+chain: (PLACEHOLDER) Name of the blockchain the NFT resides on (e.g., "Ethereum")
+token_id: Unique identifier of the NFT on the blockchain
+token_standard: Token standard used (e.g., "ERC-721")
+symbol: Symbol representing the NFT (optional)
+seller_fee_basis_points: Percentage of the seller fee taken on sales (optional)
+is_presale: Boolean flag indicating if the NFT is currently in a presale phase (optional)
+start_time: Date and time when the auction or sale begins (optional)
+end_time: Date and time when the auction or sale ends (optional)
+tags: Array of keywords relevant to the NFT for search and discovery
+General Data:
+
+date: Date the NFT was created or minted (optional)
+edition_size: Total number of NFTs in the collection (optional)
+Platform-Specific Data (OpenSea Specific):
+
+category: Category of the NFT on OpenSea (may differ from general category)
+asset_contract_address: Ethereum contract address of the NFT collection
+... additional OpenSea-specific fields as relevant
+Essential Data:
+
+name: {{nft_name}}
+description: {{nft_description}}
+image: {{nft_image_url}}
+creators: [ { "address": {{creator_address_1}}, "share": {{creator_1_share}}, "name": {{creator_1_name}} }, // ... additional creators if applicable ]
+collection: {{collection_name}}
+Optional Data:
+
+animation_url: {{nft_animation_url}}
+external_url: {{nft_external_url}}
+attributes: [ { "trait_type": {{trait_type_1}}, "value": {{trait_value_1}} }, // ... additional traits and values ]
+properties: { "resolution": {{nft_resolution}}, "frame_rate": {{nft_frame_rate}}, "audio_format": {{nft_audio_format}} }
+approvals: []
+unlockable_content: {{unlockable_content_description}}
+creatorDID: {{creator_did}}
+background_color: {{background_color}}
+category: {{nft_category}}
+explicit_content: {{explicit_content_boolean}}
+license: {{nft_license}}
+media: {{nft_media_url}}
+subtitle: {{nft_subtitle}}
+chain: {{blockchain_name}}
+General Data:
+
+date: {{nft_creation_date}}
+edition_size: {{total_nfts_in_collection}}
+Platform-Specific Data (OpenSea Specific):
+
+category: {{opensea_category}}
+asset_contract_address: {{contract_address}}

@@ -1,0 +1,113 @@
+{
+  // **Schema Reference:**
+  // - Links to the OpenSea metadata schema definition for consistency
+  "$schema": "https://metadata.opensea.io/schema/v1.0.0",
+
+  // **Template Versioning:**
+  // - Tracks changes and facilitates updates
+  "version": "1.5.0",
+
+  // **Essential Data:**
+
+  // - Name of the NFT
+  "name": "{{nft_name}}",
+
+  // - Detailed description of the NFT
+  "description": "{{nft_description}}",
+
+  // - URL of the main image
+  "image": "{{nft_image_url}}",
+
+  // - Array of creators and their contributions
+  "creators": [
+    {
+      // - Creator's wallet address
+      "address": "{{creator_address_1}}",
+
+      // - Percentage share of ownership (optional)
+      "share": {{creator_1_share}},
+
+      // - Name or pseudonym of the creator
+      "name": "{{creator_1_name}}"
+    },
+    // ... additional creators if applicable
+  ],
+
+  // - Name of the collection to which the NFT belongs
+  "collection": "{{collection_name}}",
+
+  // **Optional Data:**
+
+  // - URL of any animation or video associated with the NFT
+  "animation_url": "{{nft_animation_url}}",
+
+  // - Link to an external website or resource related to the NFT
+  "external_url": "{{nft_external_url}}",
+
+  // - Array of attributes and their values, defining unique traits
+  "attributes": [
+    {
+      // - Name of the attribute (e.g., "Rarity", "Color")
+      "trait_type": "{{trait_type_1}}",
+
+      // - Specific value of the attribute (e.g., "Legendary", "Blue")
+      "value": "{{trait_value_1}}"
+    },
+    // ... additional traits and values
+  ],
+
+  // - Object containing technical details about media
+  "properties": {
+    // - Resolution of the main image or video (e.g., "4K")
+    "resolution": "{{nft_resolution}}",
+
+    // - Frame rate of animation or video (if applicable)
+    "frame_rate": "{{nft_frame_rate}}",
+
+    // - Audio format of any included audio (if applicable)
+    "audio_format": "{{nft_audio_format}}"
+  },
+
+  // - List of approved bidders (initially empty)
+  "approvals": [],
+
+  // - Description of any unlockable content associated with the NFT
+  "unlockable_content": "{{unlockable_content_description}}",
+
+  // - Creator's Decentralized Identifier (optional)
+  "creatorDID": "{{creator_did}}",
+
+  // - Background color in HEX or RGB format (optional)
+  "background_color": "{{background_color}}",
+
+  // - Category of the NFT (e.g., "Art", "Music")
+  "category": "{{nft_category}}",
+
+  // - Boolean flag indicating explicit content (optional)
+  "explicit_content": {{explicit_content_boolean}},
+
+  // - License under which the NFT is released (e.g., "CC BY-NC-SA 4.0")
+  "license": "{{nft_license}}",
+
+  // - URL of any additional media associated with the NFT (e.g., audio file)
+  "media": "{{nft_media_url}}",
+
+  // - Subtitle for the NFT
+  "subtitle": "{{nft_subtitle}}",
+
+  // - Name of the blockchain the NFT resides on (e.g., "Ethereum")
+  "chain": "{{blockchain_name}}",
+
+  // **General Data:**
+
+  // - Unique identifier of the NFT on the blockchain
+  "token_id": {{token_id}},
+
+  // - Token standard used (e.g., "ERC-721")
+  "token_standard": {{token_standard}},
+
+  // - Symbol representing the NFT (optional)
+  "symbol": "{{nft_symbol}}",
+
+  // - Percentage of the seller fee taken on sales (optional)
+  "seller_

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://metadata.opensea.io/schema/v1.0.0", // OpenSea platform-specific schema
+  "version": "1.2.0", // Bard's internal version number
+
+  // Essential Data
+  "name": "The Cosmic Voyager",
+  "description": "A mesmerizing journey through the vast expanse of the cosmos. Explore breathtaking nebulas, witness the birth of stars, and unravel the mysteries of the universe.",
+  "image": "https://ipfs.io/ipfs/bafybeihg45z54654r5465y54354gh5465456754654.png",
+  "creators": [
+    {
+      "address": "0x1234567890abcdef1234567890abcdef12345678",
+      "share": 50,
+      "name": "Stargazer Studios"
+    },
+    {
+      "address": "0x9876543210fedcba9876543210fedcba98765432",
+      "share": 50,
+      "name": "AstrophysicistX"
+    }
+  ],
+  "collection": "Cosmic Odyssey",
+
+  // Optional Data (partially filled)
+  "animation_url": "https://ipfs.io/ipfs/bafybeihu234e98df897234987df342987342987234.gif",
+  "external_url": "https://cosmicvoyager.com",
+  "attributes": [
+    {
+      "trait_type": "Galaxy",
+      "value": "Andromeda"
+    },
+    {
+      "trait_type": "Star type",
+      "value": "Blue Giant"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    }
+  ],
+  "properties": {
+    "resolution": "4K",
+    "frame_rate": 60,
+    "audio_format": "Dolby Atmos"
+  },
+  "approvals": [],
+  "unlockable_content": "A 3D model of the Voyager spacecraft for download upon ownership",
+  "creatorDID": "did:eth:QmT234987234987df342987df234987df234",
+  "background_color": "#000000",
+  "category": "Art",
+  "explicit_content": false,
+  "license": "CC BY-NC-SA 4.0",
+  "media": "https://ipfs.io/ipfs/bafybeihu34897234987df342987df234987df234.mp3",
+  "subtitle": "A journey beyond the known",
+  "chain": "Ethereum",
+  "token_id": "12345",
+  "token_standard": "ERC-721",
+  "symbol": "COSMIC",
+  "seller_fee_basis_points": 5,
+  "is_presale": false,
+  "start_time": "2023-12-25T00:00:00Z",
+  "end_time": "2024-01-08T00:00:00Z",
+  "tags": ["space", "exploration", "universe", "art", "animation", "audio"],
+
+  // General Data
+  "date": "2023-12-24", // Date of NFT creation or minting
+  "edition_size": 100, // Total number of NFTs in the collection
+
+  // Platform-Specific Data (OpenSea)
+  "opensea": {
+    "category": "Art",
+    "asset_contract_address": "0x1234567890abcdef1234567890abcdef12345678",
