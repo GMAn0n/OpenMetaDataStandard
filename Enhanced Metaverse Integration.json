@@ -1,0 +1,23 @@
+{
+  // Standard metadata remains the same...
+
+  "metaverse_integration": {
+    // Existing fields preserved...
+
+    "location_aware_interactions": true,  // New flag to enable this feature
+
+    "interactions": [
+      // Array of objects defining specific location-based interactions
+      {
+        "location_trigger": "Decentraland/Jungle biome",  // Specific area in the metaverse
+        "visual_effect": "adjust_hue_to_environment",  // Change NFT's color based on surroundings
+        "audio_effect": "play_ambient_nature_sounds",  // Enhance immersion with location-specific audio
+      },
+      {
+        "location_trigger": "Sandbox/Urban rooftop",  // Another area in the metaverse
+        "visual_effect": "project_holographic_city_map",  // Display relevant location information
+        "audio_effect": "play_city_ambience_with_distant_traffic",  // Add soundscape details
+      }
+    ]
+  }
+}
