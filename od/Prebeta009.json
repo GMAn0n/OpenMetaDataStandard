@@ -1,0 +1,47 @@
+{
+  "name": "The Name of Your NFT",
+  "description": "A captivating description of your NFT, detailing its unique features and captivating story.",
+  "image": "https://ipfs.io/ipfs/bafybeih75v5464546546...",
+  "animation_url": "https://ipfs.io/ipfs/bafybeih75v54...",
+  "external_url": "https://your-nft-website.com",
+  "attributes": [
+    { "trait_type": "Background", "value": "Striking Purple" },
+    { "trait_type": "Rarity", "value": "Exceptionally Rare" },
+    { "trait_type": "Eye Color", "value": "Mesmerizing Emerald Green" },
+    { "trait_type": "Accessory", "value": "Enchanted Headwear" },
+    // ... further details about visual characteristics
+  ],
+  "collection": {
+    "name": "The Collection Name: A Universe of Wonder",
+    "description": "A collection of NFTs that transcend imagination and explore uncharted realms of creativity.",
+    "id": "0x1234567890abcdef...",
+    "image": "https://ipfs.io/ipfs/bafybeih75v54...",
+  },
+  "creators": [
+    { "address": "0x123456789...", "name": "Visionary Artist", "share": 50, "social_links": { "twitter": "artist_handle", "instagram": "artist_profile" } },
+    { "address": "0xABCDEFGHIJ...", "name": "Master Collaborator", "share": 25, "social_links": { "website": "collaborator_site" } },
+  ],
+  "properties": {
+    "edition": 100,
+    "unlockable_content": "https://secret-realm.com",
+    "category": "Digital Art",
+    "subcategory": "Surreal Fantasy",
+    "license": "CC BY 4.0",
+    "explicit_content": false,
+    "royalty_percentage": 10,
+    "token_id": 123,
+    "generative_attributes": true,
+    "background_color": "#FFFFFF",
+    "sound": "https://ipfs.io/ipfs/bafybeih75v54.../ethereal_music.mp3",
+    "video": "https://ipfs.io/ipfs/bafybeih75v54.../hypnotic_visuals.mp4",
+    "supply": 1000,
+    "minted_date": "2023-12-24T20:03:00Z",
+    "chain": "Ethereum",
+    "contract_address": "0x1234567890abcdef...",
+    "keywords": ["fantasy", "surreal", "art", "generative", "ethereum"],
+    "unlockable_text": "A secret message for the holder's eyes only.",  // Example of text-based unlockable content
+    "metadata_schema": "ERC721 Metadata JSON Schema",  // Example of specifying the schema used
+    "is_approved": false,  // Example of a moderation flag (optional)
+    "last_updated": "2023-12-24T20:15:00Z"  // Example of tracking metadata updates
+  }
+}

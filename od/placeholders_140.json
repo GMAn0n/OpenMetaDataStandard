@@ -1,0 +1,58 @@
+{
+  "$schema": "https://metadata.opensea.io/schema/v1.0.0",
+  "version": "1.4.0",
+
+  "name": "{{nft_name}}",
+  "description": "{{nft_description}}",
+  "image": "{{nft_image_url}}",
+  "creators": [
+    {
+      "address": "{{creator_address_1}}",
+      "share": {{creator_1_share}},
+      "name": "{{creator_1_name}}"
+    },
+    // ... additional creators if applicable
+  ],
+  "collection": "{{collection_name}}",
+
+  "animation_url": "{{nft_animation_url}}",
+  "external_url": "{{nft_external_url}}",
+  "attributes": [
+    {
+      "trait_type": "{{trait_type_1}}",
+      "value": "{{trait_value_1}}"
+    },
+    // ... additional traits and values
+  ],
+  "properties": {
+    "resolution": "{{nft_resolution}}",
+    "frame_rate": "{{nft_frame_rate}}",
+    "audio_format": "{{nft_audio_format}}"
+  },
+  "approvals": [],
+  "unlockable_content": "{{unlockable_content_description}}",
+  "creatorDID": "{{creator_did}}",
+  "background_color": "{{background_color}}",
+  "category": "{{nft_category}}",
+  "explicit_content": {{explicit_content_boolean}},
+  "license": "{{nft_license}}",
+  "media": "{{nft_media_url}}",
+  "subtitle": "{{nft_subtitle}}",
+  "chain": "{{blockchain_name}}",
+  "token_id": "{{token_id}}",
+  "token_standard": "{{token_standard}}",
+  "symbol": "{{nft_symbol}}",
+  "seller_fee_basis_points": {{seller_fee_basis_points}},
+  "is_presale": {{is_presale_boolean}},
+  "start_time": "{{auction_start_time}}",
+  "end_time": "{{auction_end_time}}",
+  "tags": ["{{tag_1}}", "{{tag_2}}", "{{tag_3}}"],
+
+  "date": "{{nft_creation_date}}",
+  "edition_size": {{total_nfts_in_collection}},
+
+  "opensea": {
+    "category": "{{opensea_category}}",
+    "asset_contract_address": "{{contract_address}}"
+  }
+}

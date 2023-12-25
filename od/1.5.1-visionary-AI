@@ -1,0 +1,72 @@
+{
+  // **Schema Declaration:**
+  "$schema": "https://metadata.opensea.io/schema/v1.5.0-visionary",
+  "version": "1.5.1-visionary-AI",
+
+  // **Base Standard Metadata (v1.1):**
+  "name": "AI-Powered Chameleon",
+  "description": "This NFT adapts its colors and environment based on real-world events, interacts with you, and offers unique VR experiences.",
+  "image": "https://ipfs.io/ipfs/Qm...",
+  "attributes": [
+    {
+      "trait_type": "Base Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "AI Model",
+      "value": "Nature-Response"
+    }
+  ],
+
+  // **Experimental Enhancements (v1.2, v1.3, v1.4):**
+  "dynamic_content": {
+    "external_data_sources": [
+      "https://api.openweathermap.org", // Weather data
+      "https://newsapi.org", // News feed
+    ],
+    "update_frequency": "hourly",
+    "ai_variations_enabled": true,
+    "ai_model_url": "IPFS://bafybeig4..." // Custom AI model for this NFT
+  },
+  "interactive_elements": [
+    {
+      "type": "voice",
+      "trigger": "proximity",
+      "responses": [
+        "Hello! What's your favorite color?",
+        "I sense a change in the weather. Let's see what's happening."
+      ]
+    },
+    {
+      "type": "AR",
+      "trigger": "scan",
+      "model_url": "https://arlink.com/model/chameleon"
+    }
+  ],
+  "token_economics": {
+    "price": 1.0, // Starting price in ETH
+    "dynamic_pricing": true, // Price adjusts based on AI analysis of market trends
+    "royalties": 0.1, // Creator receives 10% of secondary sales
+  },
+
+  // **Visionary Features (v1.5.0-visionary):**
+  "metaverse_integration": {
+    "model_url": "IPFS://bafybeic7...", // 3D model for metaverse platforms
+    "supported_platforms": ["Decentraland", "Sandbox", "Cryptovoxels"],
+    "interactive_elements": [
+      {
+        "type": "VR experience",
+        "trigger": "touch",
+        "environment_url": "https://metaverse.example/spaces/5..." // Links to a unique VR environment
+      }
+    ]
+  },
+  "real_world_linkages": {
+    "physical_asset_id": "123456789",
+    "redemption_instructions": "Visit https://example.com/redeem for a limited edition print of this artwork.",
+  },
+  "on_chain_storage": {
+    "storage_provider": "Arweave",
+    "content_hash": "Qm..." // All metadata permanently stored on-chain
+  }
+}
